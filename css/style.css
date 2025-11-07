@@ -380,6 +380,7 @@ header {
 }
 
 .project__title:after {
+  /*  */
   content: "";
   display: block;
   position: relative;
