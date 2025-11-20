@@ -4,15 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="DJ" />
-    <meta name="description" content="우주에서 가장 뛰어난 외관" />
-    <title>DJ's Website</title>
+    <meta name="discription" content="우주에서 가장 뛰어난 외관" />
 
+    <link rel="shortcut icon" href="./img/카리나.ico" type="imges/x-icon" />
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
-    <link
-      rel="shortcut icon"
-      href="https://placehold.co/36x36/FF3BFF/10101A?text=K"
-      type="image/x-icon"
-    />
+
+    <title>DJ&#39;s Website</title>
 
     <script
       src="https://kit.fontawesome.com/133260cff9.js"
@@ -20,13 +17,10 @@
     ></script>
   </head>
   <body>
+    <!-- header -->
     <header class="header">
       <div class="header__logo">
-        <img
-          class="header__logo__img"
-          src="https://placehold.co/36x36/FF3BFF/10101A?text=A"
-          alt="logo"
-        />
+        <img class="header__logo__img" src="./img/카리나.ico" alt="logo" />
         <h1 class="header__logo__title"><a href="#">카리나 로켓펀쳐</a></h1>
       </div>
 
@@ -54,7 +48,7 @@
     <main>
       <!-- home -->
       <section id="home">
-        <img class="home__avatar" src="./img/카리나.ico" alt="프로필 사진" />
+        <img class="home__avatar" src="./img/카리나.jpg" alt="프로필 사진" />
         <h2 class="home__title">
           안녕하세요. <br /><strong class="home__title--strong"
             >카리나 팬</strong
@@ -102,31 +96,31 @@
 
         <ul class="members">
           <li class="member">
-            <img src="./img/8.jfif" alt="카리나 프로필" />
+            <img src="./img/카리나흑단발.jpg" alt="카리나 로고" />
             <div>
               <p class="member__name">카리나</p>
               <p class="member__birtY">00년 4월 11일생</p>
             </div>
           </li>
           <li class="member">
-            <img src="./img/윈터.jpeg" alt="윈터 프로필" />
+            <img src="./img/지젤.jpg" alt="윈터 로고" />
+            <div>
+              <p class="member__name">지젤</p>
+              <p class="member__birtY">00년 10월 30일생</p>
+            </div>
+          </li>
+          <li class="member">
+            <img src="./img/윈터.jpeg" alt="지젤 로고" />
             <div>
               <p class="member__name">윈터</p>
               <p class="member__birtY">01년 01월 01일생</p>
             </div>
           </li>
           <li class="member">
-            <img src="./img/닝닝.jpg" alt="닝닝 프로필" />
+            <img src="./img/닝닝.jpg" alt="닝닝 로고" />
             <div>
               <p class="member__name">닝닝</p>
               <p class="member__birtY">02년생 10월 23일생</p>
-            </div>
-          </li>
-          <li class="member">
-            <img src="./img/지젤.jpg" alt="지젤 프로필" />
-            <div>
-              <p class="member__name">지젤</p>
-              <p class="member__birtY">00년 10월 30일생</p>
             </div>
           </li>
         </ul>
@@ -218,68 +212,64 @@
       </section>
       <!-- achievements -->
       <section id="achievements" class="section">
-        <div class="max-container">
+        <div id="max-container">
           <h2 class="title">수상</h2>
           <p class="description">수상 기록</p>
           <ul class="categories">
             <li>
-              <button class="category category--selected" data-category="all">
+              <button class="category category--selected">
                 ALL
                 <span class="category__count">51</span>
               </button>
             </li>
             <li>
-              <button class="category" data-category="1">
+              <button class="category">
                 1관왕
                 <span class="category__count">2</span>
               </button>
             </li>
             <li>
-              <button class="category" data-category="2">
+              <button class="category">
                 2관왕<span class="category__count">1</span>
               </button>
             </li>
             <li>
-              <button class="category" data-category="3">
+              <button class="category">
                 3관왕
                 <span class="category__count">1</span>
               </button>
             </li>
             <li>
-              <button class="category" data-category="4">
+              <button class="category">
                 4관왕
                 <span class="category__count">3</span>
               </button>
             </li>
             <li>
-              <button class="category" data-category="6">
+              <button class="category">
                 6관왕
                 <span class="category__count">1</span>
               </button>
             </li>
             <li>
-              <button class="category" data-category="8">
+              <button class="category">
                 8관왕
                 <span class="category__count">2</span>
               </button>
             </li>
             <li>
-              <button class="category" data-category="10">
+              <button class="category">
                 10관왕
                 <span class="category__count">1</span>
               </button>
             </li>
           </ul>
 
+          <h3>리스트 11</h3>
           <ul class="win_list">
-            <!-- data-category 속성을 추가하여 필터링 기준을 지정합니다. -->
-            <li class="win" data-category="1">
+            <li class="win">
               <a href="#" target="_blank">
-                <img
-                  class="win__img"
-                  src="./img/1.jpg"
-                  alt="Black Mamba 1관왕 이미지"
-                />
+                <img class="win__img" src="./img/1.jpg" alt="1" />
                 <div class="win__metadata">
                   <h3 class="win__title">1등 #1</h3>
                   <p>Black Mamba 1관왕</p>
@@ -287,13 +277,9 @@
               </a>
             </li>
 
-            <li class="win" data-category="8">
+            <li class="win">
               <a href="#" target="_blank">
-                <img
-                  class="win__img"
-                  src="./img/2.jpg"
-                  alt="Savage 8관왕 이미지"
-                />
+                <img class="win__img" src="./img/2.jpg" alt="카리나흑단발" />
                 <div class="win__metadata">
                   <h3 class="win__title">1등 #2</h3>
                   <p>Savage 8관왕</p>
@@ -301,13 +287,9 @@
               </a>
             </li>
 
-            <li class="win" data-category="2">
+            <li class="win">
               <a href="#" target="_blank">
-                <img
-                  class="win__img"
-                  src="./img/3.webp"
-                  alt="Girls 2관왕 이미지"
-                />
+                <img class="win__img" src="./img/3.webp" alt="카리나흑단발" />
                 <div class="win__metadata">
                   <h3 class="win__title">1등 #3</h3>
                   <p>Girls 2관왕</p>
@@ -315,13 +297,9 @@
               </a>
             </li>
 
-            <li class="win" data-category="4">
+            <li class="win">
               <a href="#" target="_blank">
-                <img
-                  class="win__img"
-                  src="./img/4.jpg"
-                  alt="Spicy 4관왕 이미지"
-                />
+                <img class="win__img" src="./img/4.jpg" alt="카리나흑단발" />
                 <div class="win__metadata">
                   <h3 class="win__title">1등 #4</h3>
                   <p>Spicy 4관왕</p>
@@ -329,13 +307,9 @@
               </a>
             </li>
 
-            <li class="win" data-category="3">
+            <li class="win">
               <a href="#" target="_blank">
-                <img
-                  class="win__img"
-                  src="./img/5.jfif"
-                  alt="Drama 3관왕 이미지"
-                />
+                <img class="win__img" src="./img/5.jfif" alt="카리나흑단발" />
                 <div class="win__metadata">
                   <h3>1등 #5</h3>
                   <p>Drama 3관왕</p>
@@ -343,13 +317,9 @@
               </a>
             </li>
 
-            <li class="win" data-category="8">
+            <li class="win">
               <a href="#" target="_blank">
-                <img
-                  class="win__img"
-                  src="./img/6.webp"
-                  alt="Supernova 8관왕 이미지"
-                />
+                <img class="win__img" src="./img/6.webp" alt="카리나흑단발" />
                 <div class="win__metadata">
                   <h3 class="win_title">1등 #6</h3>
                   <p>Supernova 8관왕</p>
@@ -357,13 +327,9 @@
               </a>
             </li>
 
-            <li class="win" data-category="4">
+            <li class="win">
               <a href="#" target="_blank">
-                <img
-                  class="win__img"
-                  src="./img/7.jfif"
-                  alt="Armageddon 4관왕 이미지"
-                />
+                <img class="win__img" src="./img/7.jfif" alt="카리나흑단발" />
                 <div class="win__metadata">
                   <h3 class="win_title">1등 #7</h3>
                   <p>Armageddon 4관왕</p>
@@ -371,13 +337,9 @@
               </a>
             </li>
 
-            <li class="win" data-category="1">
+            <li class="win">
               <a href="#" target="_blank">
-                <img
-                  class="win__img"
-                  src="./img/8.jfif"
-                  alt="UP 1관왕 이미지"
-                />
+                <img class="win__img" src="./img/8.jfif" alt="카리나흑단발" />
                 <div class="win__metadata">
                   <h3 class="win_title">1등 #8</h3>
                   <p>UP (KARINA Solo) 1관왕</p>
@@ -385,13 +347,9 @@
               </a>
             </li>
 
-            <li class="win" data-category="6">
+            <li class="win">
               <a href="#" target="_blank">
-                <img
-                  class="win__img"
-                  src="./img/9.jpg"
-                  alt="Whiplash 6관왕 이미지"
-                />
+                <img class="win__img" src="./img/9.jpg" alt="카리나흑단발" />
                 <div class="win__metadata">
                   <h3 class="win_title">1등 #9</h3>
                   <p>Whiplash 6관왕</p>
@@ -399,13 +357,9 @@
               </a>
             </li>
 
-            <li class="win" data-category="4">
+            <li class="win">
               <a href="#" target="_blank">
-                <img
-                  class="win__img"
-                  src="./img/10.jfif"
-                  alt="Dirty Work 4관왕 이미지"
-                />
+                <img class="win__img" src="./img/10.jfif" alt="카리나흑단발" />
                 <div class="win__metadata">
                   <h3 class="win_title">1등 #10</h3>
                   <p>Dirty Work 4관왕</p>
@@ -413,13 +367,9 @@
               </a>
             </li>
 
-            <li class="win" data-category="10">
+            <li class="win">
               <a href="#" target="_blank">
-                <img
-                  class="win__img"
-                  src="./img/11.jpg"
-                  alt="Rich Man 10관왕 이미지"
-                />
+                <img class="win__img" src="./img/11.jpg" alt="카리나흑단발" />
                 <div class="win__metadata">
                   <h3 class="win_title">1등 #11</h3>
                   <p>Rich Man 10관왕</p>
@@ -428,6 +378,44 @@
             </li>
           </ul>
         </div>
+      </section>
+      <!-- sayings -->
+      <section class="section max-container" id="sayings">
+        <h2 class="title">띵언록</h2>
+        <p class="description">명언</p>
+        <ul class="sayings">
+          <li class="saying">
+            <img
+              class="saying__img"
+              src="./img/윈터.jpeg"
+              alt="정보처리기사 자격증"
+            />
+            <div class="saying__bubble">
+              <p><a href="#" class="saying__bubble__name">윈터</a></p>
+              <p>
+                준비를 다 하지 못해서 생기는 긴장감이라면 절대 겪고 싶지
+                않지만,<br />
+                내 기준에서 준비를 충분히 마친 뒤의 긴장은 즐길 수 있다.
+              </p>
+            </div>
+          </li>
+
+          <li class="saying">
+            <img
+              class="saying__img"
+              src="./img/카리나.jpg"
+              alt="정보처리기사 자격증"
+            />
+            <div class="saying__bubble">
+              <p><a href="#" class="saying__bubble__name">카리나</a></p>
+              <p>
+                남의 것을 탐하는 탐욕은 내려놓아야 할 마음 중 하나이다.
+                <br />탐욕은 순간적인 즐거움을 주지만 육체의 분노와 질책을 받게
+                될 것이다
+              </p>
+            </div>
+          </li>
+        </ul>
       </section>
 
       <!-- aside -->
@@ -466,63 +454,6 @@
         <p>&copy; DJ - All rights reserved</p>
       </div>
     </footer>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        // 1. 필요한 요소 가져오기
-        const categoriesContainer = document.querySelector(".categories");
-        const winList = document.querySelector(".win_list"); // ul.win_list 요소를 가져옵니다.
-        const winItems = document.querySelectorAll(".win_list .win");
-        const categoryButtons = document.querySelectorAll(".category");
-
-        // 2. 필터링 로직 함수
-        const filterWins = (selectedCategory) => {
-          let visibleCount = 0; // 새로 추가: 보이는 항목의 개수를 세기 위한 변수
-
-          winItems.forEach((item) => {
-            const itemCategory = item.dataset.category; // win 요소의 data-category 값
-
-            if (
-              selectedCategory === "all" ||
-              itemCategory === selectedCategory
-            ) {
-              item.style.display = "block"; // grid 항목이므로 block으로 표시
-              visibleCount++; // 보이는 항목 수 증가
-            } else {
-              item.style.display = "none";
-            }
-          });
-
-          // 3. NEW: 보이는 항목 수에 따라 클래스 토글 (단일 항목일 때 레이아웃 변경)
-          if (visibleCount === 1) {
-            winList.classList.add("single-item-layout");
-          } else {
-            winList.classList.remove("single-item-layout");
-          }
-        };
-
-        // 4. 버튼 클릭 이벤트 리스너 설정 (이전과 동일)
-        categoryButtons.forEach((button) => {
-          button.addEventListener("click", (event) => {
-            const clickedButton = event.currentTarget;
-            const selectedCategory = clickedButton.dataset.category;
-
-            // 모든 버튼에서 선택 클래스 제거
-            categoryButtons.forEach((btn) =>
-              btn.classList.remove("category--selected")
-            );
-
-            // 클릭된 버튼에 선택 클래스 추가
-            clickedButton.classList.add("category--selected");
-
-            // 필터링 실행
-            filterWins(selectedCategory);
-          });
-        });
-
-        // 초기 로드 시 'ALL' 상태로 필터링을 한 번 실행하여 visibleCount를 계산합니다.
-        filterWins("all");
-      });
-    </script>
   </body>
 </html>
+<!--  -->
