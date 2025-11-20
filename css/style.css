@@ -572,7 +572,7 @@
 
       /* sayings (license) */
       #sayings {
-        background-color: #f7f7ff;
+        background-color: hsl(308deg 100% 50% / 10%);
       }
 
       .sayings {
@@ -608,7 +608,7 @@
         padding: 1.5rem;
         border-radius: 8px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
-        background-color: var(--color-white);
+        background-color: #f9f5d6;
         flex-grow: 1;
         line-height: 1.5;
         border: 1px solid #ddd;
@@ -637,7 +637,7 @@
       }
 
       .saying:nth-child(even) .saying__bubble {
-        background-color: #eaf1ff;
+        background-color: #e4fbe5;
       }
       .saying:nth-child(even) .saying__bubble:before {
         border-color: transparent transparent transparent #eaf1ff;
